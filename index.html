@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>矩形计算器</title>
+		<link rel="icon" type="text/css" href="images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	<body>
+		<div id="" class="all_box">
+			<h2>矩形计算器</h2>
+			<div class="item_box flex flex-c flex_jc">
+				<p class="ttl">宽度：</p>
+				<input type="number" name="width" id="w_input" oninput="watch_w(event)" value="" placeholder="请输入矩形宽度" />
+				<span></span>
+				<p id="w_tishi" class="tishi"></p>
+			</div>
+			<div class="item_box flex flex-c flex_jc">
+				<p class="ttl">高度：</p>
+				<input type="number" disabled name="height" id="h_input" oninput="watch_h(event)" value="" placeholder="请输入矩形高度" />
+				<span></span>
+				<p id="h_tishi" class="tishi"></p>
+			</div>
+			<input type="button" id="jisuan" value="计算" />
+			<div class="item_box flex flex-c flex_jc">
+				<p>周长：</p>
+				<input disabled type="number" id="week" value="" />
+			</div>
+			<div class="item_box flex flex-c flex_jc">
+				<p>面积：</p>
+				<input disabled type="number" id="area" value="" />
+			</div>
+		</div>
+	</body>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</html>

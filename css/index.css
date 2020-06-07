@@ -1,0 +1,57 @@
+body {
+	height: 100%;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-c {
+	align-items: center;
+}
+
+.flex_jc {
+	justify-content: center;
+}
+
+.all_box {
+	width: 500px;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	text-align: center;
+	margin: 50px auto;
+	padding: 50px auto;
+}
+
+.item_box {
+	position: relative;
+}
+
+.tishi {
+	position: absolute;
+	right: 50px;
+	margin-top: -2px;
+	font-size: 12px;
+	color: red;
+}
+
+span {
+	position: absolute;
+	top: 10px;
+	right: 135px;
+}
+
+span::after {
+	content: ' *';
+	color: red;
+	font-size: 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
