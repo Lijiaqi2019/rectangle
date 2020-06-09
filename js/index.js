@@ -42,7 +42,7 @@ function watch_w(e) {
 function watch_h(e) {
 	if (h_input.value <= 0) {
 		h_input.value = ''
-		h_tishi.innerHTML = '宽度不能为0'
+		h_tishi.innerHTML = '高度不能为0'
 		h_input.value = ''
 		h_input.focus();
 	} else {
